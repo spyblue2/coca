@@ -254,12 +254,7 @@ footer .inner .right p:nth-child(1){
 #sec10 .inner .logo h2:hover{
     text-decoration-color: red;
 }
-#sec10 .inner .logo{
-    display: none;
-}
-#sec10 .inner p:hover #sec10 .inner .logo{
-    display: block;
-}
+
 
 
 /* 760px 이하 미디어 쿼리 */
