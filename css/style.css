@@ -59,6 +59,10 @@ header .inner nav ul li a:hover{
 #sec1 .inner div a{
     color: black;
 }
+#sec1 .inner div a:hover{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
 #sec2{
     height: 600px;
 }
@@ -85,6 +89,10 @@ header .inner nav ul li a:hover{
 }
 #sec2 .inner ul li a{
     color: black;
+}
+#sec2 .inner ul li a:hover{
+    text-decoration: underline;
+    text-decoration-color: red;
 }
 #sec3{
     border-top: solid 1px black;
@@ -166,6 +174,10 @@ footer .inner .right p:nth-child(1){
 #sec4 .inner #box1 a{
     color: white;
 }
+#sec4 .inner #box1 a:hover{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
 /*sub1*/
 #sec5{
     background-image: url(../img/back1.jpg);
@@ -186,6 +198,10 @@ footer .inner .right p:nth-child(1){
 }
 #sec5 .inner #box2 a{
     color: white;
+}
+#sec5 .inner #box2 a:hover{
+    text-decoration: underline;
+    text-decoration-color: red;
 }
 #sec9{
     height: 700px;
@@ -228,7 +244,7 @@ footer .inner .right p:nth-child(1){
     font-size: 5rem;
 }
 #sec10{
-    height: 3100px;
+    height: 3000px;
     background-color: #eeeeee;
     padding-top: 50px;
 }
@@ -254,8 +270,6 @@ footer .inner .right p:nth-child(1){
 #sec10 .inner .logo h2:hover{
     text-decoration-color: red;
 }
-
-
 
 /* 760px 이하 미디어 쿼리 */
 @media screen and (max-width: 760px){
