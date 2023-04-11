@@ -189,15 +189,10 @@ footer .inner .right p:nth-child(1){
 }
 #sec5 .inner #box2{
     width: 300px;
-    padding: 100px 0;
+    padding: 200px 340px;
     margin: 0 50px;
     color: white;
-}
-#sec5 .inner #box2 h2, p{
-    margin-bottom: 20px;
-}
-#sec5 .inner #box2 a{
-    color: white;
+    font-size: 5rem;
 }
 #sec5 .inner #box2 a:hover{
     text-decoration: underline;
@@ -248,13 +243,16 @@ footer .inner .right p:nth-child(1){
     background-color: #eeeeee;
     padding-top: 50px;
 }
+#sec10 .inner .item_tab:hover{
+    
+}
 #sec10 .inner h2{
     border-left: 8px solid red ;
     padding-left: 20px;
 }
 #sec10 .inner p{
     float: left;
-    margin: 30px 70px;
+    margin: 30px 50px;
 }
 #sec10 .inner p:hover{
     text-decoration: underline;
@@ -265,7 +263,10 @@ footer .inner .right p:nth-child(1){
     width: 300px;
     margin-left: 100px;
     float: left;
-    margin-top: 50px;
+    display: none;
+}
+#sec10 .inner .clear{
+    clear:both
 }
 #sec10 .inner .logo h2{
     border: none;
@@ -435,6 +436,17 @@ footer .inner .right p:nth-child(1){
     }
     footer .inner .right p:nth-child(1){
         border: none;
+    }
+    #sec5 .inner #box2{
+        width: 300px;
+        padding: 150px 90px;
+        margin: 0 50px;
+        color: white;
+        font-size: 2rem;
+    }
+    #sec9 .inner img{
+        width: auto;
+        height: 400px;
     }
 }
     
