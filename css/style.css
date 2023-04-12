@@ -501,7 +501,8 @@ footer .inner .right p:nth-child(1){
         padding: 0;
         text-decoration: underline;
         cursor: pointer;
-        width: 200px;
+        text-align: center;
+        margin-left: 0px;
     }
     #sec10 .inner .logo h2:hover{
         text-decoration-color: red;
